@@ -52,13 +52,16 @@ class App extends Component {
       }
     ]
 
+    
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">React Friends List</h1>
+          <h4>A tiny react demo app</h4>
         </header>
        
+          <h5>Some Friends</h5>
         <ReactTable
         data={friends}
         columns={columns}
